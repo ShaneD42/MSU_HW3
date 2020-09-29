@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+body {
+    background-color: #fafafa;
+}
+
+.card {
+    margin: 20px;
+    background-color: #007E33;
+    color: #fafafa;
+
+}
+
+#password {
+    font-family: 'Monofett', cursive;
+    font-size: 45px;
+}
