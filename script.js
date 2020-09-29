@@ -26,22 +26,22 @@ function generatePassword() {
 
     } 
 
-    let lowerCaseCharactersInput = confirm('Would you like to use lower case letter in your password?');
+    let lowerCaseCharactersInput = confirm('Would you like to use lower case letter in your password? Press "OK" for YES and "Cancel" for NO');
         if(lowerCaseCharactersInput) { // is true 
             passwordCharset += lowerCaseCharacters // concatenate the lower case letters to our character set 
         }
 
-    let upperCaseCharactersInput = confirm("Would you like to use upper case letters in your password?");
+    let upperCaseCharactersInput = confirm('Would you like to use upper case letters in your password? Press "OK" for YES and "Cancel" for NO');
         if(upperCaseCharactersInput) {
           passwordCharset += upperCaseCharacters // concatenates the upper case letter to our character set 
          }
 
-    let numericalCharactersInput= confirm("Would you like to use numbers in your password?");
+    let numericalCharactersInput= confirm('Would you like to use numbers in your password? Press "OK" for YES and "Cancel" for NO');
          if(numericalCharactersInput) {
              passwordCharset += numericalCharacters
          }
 
-    let specialCharactersInput = confirm("Would you like to use special characters in your password?");
+    let specialCharactersInput = confirm('Would you like to use special characters in your password?! Press "OK" for YES and "Cancel" for NO');
          if(specialCharactersInput) {
              passwordCharset += specialCharacters
          }
