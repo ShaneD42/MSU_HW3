@@ -5,6 +5,7 @@ For the third Homework assignment in our coding bootcamp we were asked to make a
 
 - Built structure with HTML 
 - Used Bootstrap to style 
+- Version2.js is the linked JS file in HTML
 
 
 Homework requirments:
